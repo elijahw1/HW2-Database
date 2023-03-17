@@ -1,0 +1,10 @@
+{% extends "base.html" %} 
+
+{% block content %} 
+
+<form method="POST">
+    <input type="text" autofocus="autofocus" name="search_string">
+    <input type="submit" formaction="/search" value="search">
+</form>
+
+{% endblock %}
